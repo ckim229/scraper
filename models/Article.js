@@ -11,8 +11,16 @@ var ArticleSchema = new Schema({
     type: String,
     required: true
   },
-  // `link` is required and of type String
-  link: {
+ //  `link` is required and of type String
+  //link: {
+    //type: String,
+    //required: true
+  //},
+  score: {
+    type: String,
+    required: true
+  },
+  user: {
     type: String,
     required: true
   },
